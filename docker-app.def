@@ -2,8 +2,8 @@
 
 APP=( "web" )
 web=(
-     "nohup  java  -jar  boot-0.0.1-SNAPSHOT.jar &" # start command
-     "APP_NAME:boot"       # process key
+     "nohup  java  -jar  /root/lib/boot-0.0.1-SNAPSHOT.jar &" # start command
+     "APP_NAME:boot "       # process key
      "echo OK"    # liveness check command
      "OK"         # liveness successful code
      "echo OK"    # readiness check command
